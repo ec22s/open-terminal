@@ -1,7 +1,7 @@
 # open-terminal
 Tiny applescript to launch Terminal in current folder from Finder.
-
 <br>
+Ref. https://apple.stackexchange.com/questions/11323/
 
 ### Environment
 ```shell
@@ -16,6 +16,10 @@ chmod +x check-alias.sh
 
 # remove `.sh` from filename if the extension is related with text editor
 ```
+
+### Preparation
+- Open macOS System Settings > Privacy & Security > Accessilibity
+- Add Terminal to allowed application to "control your computer".
 
 ### Usage
 Start open-terminal in Finder, that's all.
